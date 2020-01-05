@@ -1,37 +1,111 @@
-let money = +prompt("Ваш бюджет на месяц", ''),
-    time = prompt("Введите дату в формате YYYY-MM-DD", '');
+// ---------------
+// function fitst() {
+//   setTimeout(() => {
+//     console.log(1);
+//   }, 1000);
+// };
 
-let appData= {
-  budget: money,
-  expenses: {},
-  optionalExpenses: {},
-  income: [],
-  timeData: time,
-  savings: false
-};
+// function two() {
+//   console.log(2);
+// };
 
-for (let i = 0; i<2; i++) {
-  let a = prompt("Введите обязательную статью разходов в этом месяце", '');
-  let b = prompt("Во сколько обойдется?", '');
+// fitst();
+// two();
 
-  if ((typeof(a)) === 'string' && (typeof(a)) != null && (typeof(b)) != null && a!= '' && b != '' && a.length < 50) {
-    console.log("done");
-    appData.expenses[a] = b;
-  } else {
-    i = i-1;
-  }
-}
+// function learnJS(lang, callback) {
+//   console.log("я учу " + lang);
+//   callback();
+// };
 
-appData.moneyPerDay = appData.budget / 30;
+// function done() {
+//   console.log("666");
+// };
 
-alert("Ежедневный бюджет: " + appData.moneyPerDay);
+// learnJS("js", done);
 
-if (appData.moneyPerDay < 100) {
-  console.log("Минимальный уровень достатка");
-} else if (appData.moneyPerDay > 100 && appData.moneyPerDay < 2000) {
-  console.log("Средний уровень достатка");
-} else if (appData.moneyPerDay > 2000) {
-  console.log("Высокий уровень достатка");
-} else {
-  console.log("Произошла ошибка");
-}
+// ---------------
+// let options = {
+//   width: 1024,
+//   height: 1024,
+//   name: "test"
+// };
+
+// options.boolean = false;
+// options.color = {
+//   1: "red",
+//   2: "green"
+// };
+
+// console.log(options);
+
+// for (let key in options) {
+//   console.log('Свойсво ' + key + ' имеет значение ' + options[key]);
+// };
+
+// console.log(Object.keys(options).length);
+
+// ---------------
+// let arr = [1, 2, 3, 4, 5];
+// let arr2 = [1, 22, 33, 765];
+
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+// arr.push("11");
+// console.log(arr);
+// arr.shift();
+// console.log(arr);
+// arr.unshift("666");
+// console.log(arr);
+// arr[99] = 99;
+
+// for(let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// };
+
+// arr.forEach(function(item, i, maps) {
+//   console.log(i + ': ' + item + ", массив: " + maps);
+// });
+
+// for (let key in arr2) {
+//   console.log(key);
+// }
+
+// for (let key of arr2) {
+//   console.log(key);
+// }
+
+// let a = prompt("", "");
+// let arr3 = [];
+
+// arr3 = a.split(',');
+// console.log(arr3);
+
+// let arr = ["qwe", "wer", "111"];
+// let i = arr.join('*');
+// console.log(i);
+
+// let arr = ["qwe", "wer", "111", "222", 111, 888];
+// let arr2 = [1, 45, 33, 666]
+// let i = arr2.sort(compareNum);
+
+// function compareNum(a, b) {
+//   return a - b;
+// };
+
+// console.log(i);
+
+// ---------------
+// let soldier = {
+//   armor: 100,
+//   health: 100
+// };
+
+// let jonh = {
+//   health: 50
+// };
+
+// jonh.__proto__ = soldier;
+
+// console.log(jonh);
+// console.log(jonh.armor)
