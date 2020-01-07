@@ -109,3 +109,30 @@
 
 // console.log(jonh);
 // console.log(jonh.armor)
+
+// ---------------
+
+// console.log(typeof(String(4)));
+// console.log(typeof("qwe" + false));
+// console.log("https://vk.com/" + 1522);
+
+// console.log(typeof(Number("4")));
+// console.log(typeof(+"1"));
+// console.log(typeof(5 + +"1"));
+// console.log(typeof(parseInt('15px', 10)));
+// let ans = +prompt("hello", '');
+// let x = 5; alert( x++ );
+// console.log([ ] + false - null + true);
+// let y = 1; let x = y = 2; alert(x);
+// console.log([ ] + 1 + 2); ???
+// alert( "1"[0] )
+// console.log(2 && 1 && null && 0 && undefined );
+// let a, b;
+// console.log(!!( a && b ));
+// console.log(( a && b ));
+// alert( null || 2 && 1 || 4 );
+// a = [1, 2, 3]; b = [1, 2, 3];
+// console.log(a==b);
+// alert( typeof(+"infinity"));
+// console.log( "Ёжик" > "Яблоко");
+// console.log( 0 || "" || 2 || undefined || true || falsе);
