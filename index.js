@@ -136,3 +136,31 @@
 // alert( typeof(+"infinity"));
 // console.log( "Ёжик" > "Яблоко");
 // console.log( 0 || "" || 2 || undefined || true || falsе);
+
+//------------------
+
+// new RegExp('pattern', 'flags');
+// let ans = prompt('Ваше имя');
+// let reg = /n/gi;
+
+// console.log(ans.search(reg));
+// console.log(ans.match(reg));
+// console.log(reg.test(ans));
+
+// i флаг регистра
+// g глобальность (все вхождения)
+// m многострочность
+
+// \d числа (\D обратные флаги)
+// \w буквы (\W обратные флаги)
+// \s пробелы (\S обратные флаги)
+
+// экранирование (/ * ? $)
+
+// let pass = prompt('пароль');
+// console.log(pass.replace(/./g, '*'));
+// alert('11101010101010'.replace(/0/g, '*'));
+
+let ans = prompt('строка');
+let reg = /\d/g
+console.log(ans.match(reg));
