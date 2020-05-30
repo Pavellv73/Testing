@@ -161,6 +161,6 @@
 // console.log(pass.replace(/./g, '*'));
 // alert('11101010101010'.replace(/0/g, '*'));
 
-let ans = prompt('строка');
-let reg = /\d/g
-console.log(ans.match(reg));
+// let ans = prompt('строка');
+// let reg = /\d/g
+// console.log(ans.match(reg));
