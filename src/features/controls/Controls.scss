@@ -1,0 +1,45 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+
+  &__money,
+  &__select {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &--input {
+      margin-top: 10px;
+      width: 50%;
+      height: 50px;
+      border: 1px solid #000;
+
+      &.error {
+        border-color: red;
+      }
+    }
+
+    &--description {
+      text-align: left;
+      margin-top: 10px;
+    }
+  }
+
+  &__select {
+    margin-top: 50px;
+  }
+
+  &__pay {
+    margin-top: 50px;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #000;
+  }
+
+  &__short {
+    text-align: left;
+    margin-top: 50px;
+  }
+}

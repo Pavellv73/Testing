@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  padding: 30px;
+
+  &__products {
+    width: 70%;
+    min-height: 650px;
+  }
+
+  &__controls {
+    width: 30%;
+  }
+}
