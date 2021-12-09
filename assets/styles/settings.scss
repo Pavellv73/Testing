@@ -1,0 +1,85 @@
+// @media
+$breakpoints: (
+  "phone":        480px, // 320
+  "phone-wide":   640px, // 480
+  "tablet":       920px, // 640
+  "tablet-wide":  1250px, // 1024
+  "desktop":      1750px, // 1366
+  "desktop-wide": 2200px, // 1920
+); // 2560
+
+@mixin mq($width, $widthMax: false) {
+  @if map_has_key($breakpoints, $width) {
+    $width: map_get($breakpoints, $width);
+
+    @if ($widthMax !=  false) {
+      $widthMax: map_get($breakpoints, $widthMax);
+
+      @media only screen and (max-width: $width - 1) and (min-width: $widthMax) {
+        @content;
+      }
+    }
+
+    @else {
+      @media only screen and (max-width: $width - 1) {
+        @content;
+      }
+    }
+  }
+}
+
+// z-index
+$z-indexes: (
+  "modal",
+  "header",
+  "footer"
+);
+
+@function z($name) {
+  @if index($z-indexes, $name) {
+    @return (length($z-indexes) - index($z-indexes, $name)) + 1;
+  }
+
+  @else {
+    @warn 'There is no item "#{$name}" in this list; choose one of: #{$z-indexes}';
+    @return null;
+  }
+}
+
+// Расчитываем процент ребенка относительно родителя
+@function p($parent,$child) {
+  @return ($child * 100%) / $parent;
+}
+
+@function vw($parent,$child) {
+  @return ($child * 100vw) / $parent;
+}
+
+@function vh($parent,$child) {
+  @return ($child * 100vh) / $parent;
+}
+
+@function vh_min_max($min, $max, $minScreen, $maxScreen) {
+  @return calc( #{$min}px + #{$max - $min} * (100vh - #{$minScreen}px) / #{$maxScreen - $minScreen});
+}
+
+// Character Spacing
+@function chs($target) {
+  @return ($target / 1000) * 1em;
+}
+
+@mixin hover() {
+  body:not(.is-touch) &:hover {
+    @content;
+  }
+}
+
+@mixin focusTab() {
+  body.js-focus-visible &[data-focus-visible-added] {
+    @content;
+  }
+}
+
+// Color
+$white: #fff;
+$black: #000;

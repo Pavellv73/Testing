@@ -1,0 +1,177 @@
+.h1 {
+  font: bold 228px/202px "Gotham Pro", sans-serif;
+
+  @include mq("desktop-wide", "desktop") {
+    font-size: 180px;
+    line-height: 160px;
+  }
+
+  @include mq("desktop", "tablet-wide") {
+    font-size: 157px;
+    line-height: 140px;
+  }
+
+  @include mq("tablet-wide", "tablet") {
+    font-size: 120px;
+    line-height: 110px;
+  }
+
+  @include mq("tablet", "phone-wide") {
+    font-size: 117px;
+    line-height: 107px;
+  }
+
+  @include mq("phone-wide", "phone") {
+    font-size: 110px;
+    line-height: 100px;
+  }
+
+  @include mq("phone") {
+    font-size: 71px;
+    line-height: 65px;
+  }
+
+  &--white {
+    color: $white;
+  }
+}
+
+.h2 {
+  font: bold 128px/1em  "Gotham Pro", sans-serif;
+  letter-spacing: -0.02em;
+
+  @include mq("desktop-wide", "desktop") {
+    font-size: 110px;
+  }
+
+  @include mq("desktop", "tablet") {
+    font-size: 80px;
+  }
+
+  @include mq("tablet", "phone-wide") {
+    font-size: 62px;
+  }
+
+  @include mq("phone-wide", "phone") {
+    font-size: 50px;
+  }
+
+  @include mq("phone") {
+    font-size: 36px;
+  }
+
+  &--slider {
+    color: $white;
+    font: 800 155px/1.1em  "Gotham Pro", sans-serif;
+
+    @include mq("desktop-wide", "desktop") {
+      font-size: 130px;
+    }
+
+    @include mq("desktop", "tablet-wide") {
+      font-size: 92px;
+    }
+
+    @include mq("tablet-wide", "tablet") {
+      font-size: 70px;
+    }
+
+    @include mq("tablet", "phone-wide") {
+      font-size: 64px;
+    }
+
+    @include mq("phone-wide", "phone") {
+      font-size: 65px;
+    }
+
+    @include mq("phone") {
+      font-size: 40px;
+    }
+  }
+}
+
+.h3 {
+  font: bold 60px/1.2em "Gotham Pro", sans-serif;
+  letter-spacing: -0.05em;
+
+  @include mq("desktop-wide", "desktop") {
+    font-size: 50px;
+  }
+
+  @include mq("desktop", "tablet-wide") {
+    font-size: 40px;
+  }
+
+  @include mq("tablet-wide", "phone-wide") {
+    font-size: 30px;
+  }
+
+  @include mq("phone-wide", "phone") {
+    font-size: 35px;
+  }
+
+  @include mq("phone") {
+    font-size: 30px;
+  }
+
+  &--white {
+    color: $white;
+  }
+}
+
+.h4 {
+  font: 600 30px/1.1em  "Gilroy", sans-serif;
+  letter-spacing: -0.02em;
+
+  @include mq("desktop-wide", "desktop") {
+    font-size: 25px;
+  }
+
+  @include mq("desktop", "tablet-wide") {
+    font-size: 22px;
+  }
+
+  @include mq("tablet-wide", "tablet") {
+    font-size: 18px;
+  }
+
+  @include mq("tablet", "phone-wide") {
+    font-size: 24px;
+  }
+
+  @include mq("phone-wide", "phone") {
+    font-size: 20px;
+  }
+
+  @include mq("phone") {
+    font-size: 18px;
+  }
+}
+
+.p {
+  font: 400 21px/31px "Proxima Nova Rg", sans-serif;
+  letter-spacing: 0.008em;
+
+  @include mq("desktop", "phone") {
+    line-height: 26px;
+  }
+
+  @include mq("desktop-wide", "desktop") {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  @include mq("desktop", "phone") {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  @include mq("phone") {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &--white {
+    color: $white;
+  }
+}
