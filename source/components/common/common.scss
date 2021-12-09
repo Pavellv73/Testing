@@ -1,0 +1,34 @@
+@import "./reset.scss";
+@import "./options.scss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  outline: none;
+  text-size-adjust: none;
+}
+
+html {
+  overflow-x: hidden;
+  display: flex;
+}
+
+html,
+body {
+  width: 100%;
+  background-color: #fff;
+  margin: 0;
+  min-width: 320px;
+}
+
+.baseContainer {
+  height: 100%;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
