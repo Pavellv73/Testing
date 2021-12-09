@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "title": "Заголовок 1",
+      "message":"TLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+      "author": "Author test",
+      "date": "1995-12-17T03:24:00",
+      "link": "https://info.ru/modeinfo",
+      "status": false
+    },
+    {
+      "title": "Заголовок 2",
+      "message": "TLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+      "author": "Author test",
+      "date": "1995-12-17T03:24:00",
+      "link": "https://info.ru/modeinfo",
+      "status": false
+    },
+    {
+      "title": "Заголовок 3",
+      "message": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+      "author": "Author test",
+      "date": "1995-12-17T03:24:00",
+      "link": "https://info.ru/modeinfo",
+      "status": false
+    },
+    {
+      "title": "Заголовок 4",
+      "message": "TLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+      "author": "Author test",
+      "date": "1995-12-17T03:24:00",
+      "link": "https://info.ru/modeinfo",
+      "status": false
+    },
+    {
+      "title": "Заголовок 5",
+      "message": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+      "author": "Author test",
+      "date": "1995-12-17T03:24:00",
+      "link": "https://info.ru/modeinfo",
+      "status": false
+    },
+    {
+      "title": "Заголовок 6",
+      "message": "TLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+      "author": "Author test",
+      "date": "1995-12-17T03:24:00",
+      "link": "https://info.ru/modeinfo",
+      "status": false
+    },
+    {
+      "title": "Заголовок 7",
+      "message": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+      "author": "Author test",
+      "date": "1995-12-17T03:24:00",
+      "link": "https://info.ru/modeinfo",
+      "status": false
+    },
+    {
+      "title": "Заголовок 8",
+      "message": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+      "author": "Author test",
+      "date": "1995-12-17T03:24:00",
+      "link": "https://info.ru/modeinfo",
+      "status": false
+    },
+    {
+      "title": "Заголовок 9",
+      "message": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+      "author": "Author test",
+      "date": "1995-12-17T03:24:00",
+      "link": "https://info.ru/modeinfo",
+      "status": false
+    },
+    {
+      "title": "Заголовок 10",
+      "message": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+      "author": "Author test",
+      "date": "1995-12-17T03:24:00",
+      "link": "https://info.ru/modeinfo",
+      "status": false
+    }
+  ]
+}

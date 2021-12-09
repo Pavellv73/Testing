@@ -1,0 +1,1 @@
+import '../components/Widget/Widget';
