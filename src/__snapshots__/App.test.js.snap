@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders snapshoots 1`] = `
+<DocumentFragment>
+  <section
+    class="App-search"
+  >
+    <div
+      class="App-search_input"
+    >
+      <span>
+        Что Ищем?
+      </span>
+      <input
+        name="search"
+        placeholder="Плюшевые медведи"
+        value=""
+      />
+    </div>
+    <p>
+      Поисковое значение ...
+    </p>
+  </section>
+</DocumentFragment>
+`;
