@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "hexlet-jest.",
+  "version": "1.0.0",
+  "description": "jest tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "pavellv",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}
